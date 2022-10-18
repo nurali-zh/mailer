@@ -12,6 +12,6 @@
 		<input type="submit">
 	</form>
 <?php
-$message = 'This is simple message';
+$message = 'This is simple messages';
 //mail('futuredancemusicstar@gmail.com', 'test', $message);
 ?>
