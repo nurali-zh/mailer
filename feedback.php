@@ -1,17 +1,17 @@
 <html>
 <body>
-	<form method="post" action="mail_sender.php">
+	<form action="mail_sender.php" method='POST'>
 		Name: <input type="text" name='name'>
 		<br>
 		contact phone number: <input type="tel" name="number">
 		<br>
 		contact mail address: <input type="email" name="address">
 		<br>
-		your feedback: <input type="text" name="message">
+		Message title: <input type="text" name="title">
 		<br>
-		<input type="submit">
+		your feedback: <textarea rows="5" cols="50" name="message"></textarea>
+		<br>
+		<input type="submit" value="отправить">
 	</form>
-<?php
-$message = 'This is simple messages';
-//mail('futuredancemusicstar@gmail.com', 'test', $message);
-?>
+</body>
+</html>
